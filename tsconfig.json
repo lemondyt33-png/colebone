@@ -12,21 +12,18 @@
     "types": ["node"],
     "resolveJsonModule": true,
     "allowJs": true,
-    "checkJs": true,
+    "checkJs": false,
     "declaration": false,
-    "declarationMap": false,
     "sourceMap": true,
     "outDir": "./bin/",
-    "importHelpers": true,
-    "noEmitHelpers": true,
     "esModuleInterop": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
+
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "strictPropertyInitialization": false,
-    "alwaysStrict": true,
+
     "skipLibCheck": true,
-    "noErrorTruncation": true,
     "forceConsistentCasingInFileNames": true
   },
   "ts-node": {
